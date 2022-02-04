@@ -1,0 +1,25 @@
+{
+  "name": "playwright-template",
+  "version": "1.0.0",
+  "description": "Ready to use template for Playwright E2E tests",
+  "scripts": {
+    "install-deps": "npm ci && playwright install",
+    "debug": "playwright test --debug",
+    "record": "playwright codegen",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dialex/playwright-template.git"
+  },
+  "author": "Diogo Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dialex/playwright-template/issues"
+  },
+  "homepage": "https://github.com/dialex/playwright-template#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.18.1",
+    "playwright": "^1.18.1"
+  }
+}
