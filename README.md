@@ -5,7 +5,7 @@
 Prerequisites: latest version of Node (you can use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to install it, ie. `nvm install`)
 
 ```sh
-npm install-deps
+npm run install-deps
 ```
 
 ## ✅ Test
